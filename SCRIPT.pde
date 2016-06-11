@@ -1,6 +1,9 @@
 void setup(){
-	size(1300, 625);
+	noStroke();
 	draw = function() {
-		ellipse(mouseX, mouseY, 15, 15);
-	}
+    		fill(0, 155, 255);
+    		if (mouseIsPressed) {
+        		ellipse(mouseX, mouseY, 15, 15);
+    		}
+	};
 }
