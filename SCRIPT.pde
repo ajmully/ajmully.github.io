@@ -1,7 +1,8 @@
 void setup(){
-	size(400, 400);
+	size(1100, 700);
 	draw = function() {
 		background(255, 255, 255);
-		ellipse(mouseX, mouseY, 25, 25);
+		fill(0, 0, 0);
+		ellipse(mouseX, mouseY, 10, 10);
 	}
 }
