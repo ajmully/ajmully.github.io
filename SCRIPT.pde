@@ -1,5 +1,5 @@
 void setup(){
-	size(1200, 650)
+	size(1250, 640)
 	noStroke();
 	draw = function() {
     		fill(0, 155, 255);
