@@ -3,10 +3,10 @@ body {
     background-color: rgb(0, 0, 0);
 }
 #header-photo {
-    margin: auto;
+    margin-left: auto;
 }
 #header-text {
     text-align: center;
     color: #ffffff;
-    font-style: monospace;
+    font-weight: bold;
 }
