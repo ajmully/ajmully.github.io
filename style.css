@@ -2,9 +2,10 @@
 body {
     background-color: rgb(0, 0, 0);
 }
-.header {
-    text-align: center;
+#header-photo {
+    margin: auto;
 }
 #header-text {
-color: #ffffff;
+    text-align: center;
+    color: #ffffff;
 }
