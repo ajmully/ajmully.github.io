@@ -39,6 +39,24 @@
         My name is Vladimir.<br />When I was 5, they killed my parents.<br />Now I'm going to get <span id="revenge"><strong>revenge</strong></span>.
       </p>
     </div>
-
+    <script>
+      function msg() {
+        c = confirm('I WILL HAVE REVENGE!\nWill you join me?');
+        if (c === true) {
+          t();
+        } else {
+          f();
+        }
+      };
+      function t() {
+        alert('Come. Join me. We can do this together.')
+      };
+      function f() {
+        alert('YOU HAVE BETRAYED ME!\nI WILL KILL YOU!')
+      };
+      window.onload = function() {
+        setTimeout(msg, 5000);
+      };
+    </script>
   </body>
 </html>
