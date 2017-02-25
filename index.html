@@ -1,9 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html><head>
     <title></title>
   </head>
   <body>
-    <textarea id="text" rows=100 cols=30></textarea>
-  </body>
-</html>
+    <textarea id="text" rows="100" cols="30" style="margin: 0px; height: 1500px; width: 227px;"></textarea><br>
+  <a id="save-btn" href="javascript:save()">Save</a>
+  <script>
+  var box = document.getElementById("text");
+  var button = document.getElementById("save-btn");
+  function save() {
+  	localStorage.setItem('content', box.value);
+  }
+  box.value = localStorage.getItem('content');
+  button.href = "javascript:save()";
+</script>
+</body></html>
